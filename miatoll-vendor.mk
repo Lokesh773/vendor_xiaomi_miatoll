@@ -247,6 +247,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/audio_io_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_io_policy.conf \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
+    vendor/xiaomi/miatoll/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/bluetooth_qti_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_audio_policy_configuration.xml \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
@@ -498,6 +499,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/camera/com.qti.sensor.curtana_gc02m1.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.curtana_gc02m1.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/camera/com.qti.sensor.curtana_gc8034.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.curtana_gc8034.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/camera/com.qti.sensor.curtana_ov16a1q.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.curtana_ov16a1q.so \
+    vendor/xiaomi/miatoll/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/camera/com.qti.sensor.curtana_ov2180.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.curtana_ov2180.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/camera/com.qti.sensor.curtana_ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.curtana_ov8856.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/camera/com.qti.sensor.curtana_s5k5e9.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.curtana_s5k5e9.so \
@@ -1021,6 +1023,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libbundlewrapper.so \
+    vendor/xiaomi/miatoll/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/soundfx/libdownmix.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdownmix.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdynproc.so \
     vendor/xiaomi/miatoll/proprietary/vendor/lib/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libeffectproxy.so \
